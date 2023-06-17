@@ -64,7 +64,3 @@ class ES focusSystem
 
 
 ```
-
-When we apply multiple resilience patterns the sequence in which they are applied is fundamental
-1. Time Limitter
-2. Circuit Breaker
