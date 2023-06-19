@@ -38,6 +38,8 @@ spec:
               value: http://catalog-service
             - name: BOOKSHOP_ORDER_SERVICE_URI
               value: http://order-service
+            - name: SPRING_REDIS_HOST
+              value: bookshop-redis
           livenessProbe:
             httpGet:
               path: /actuator/health/liveness
